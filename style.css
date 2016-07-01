@@ -1,0 +1,87 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #222425;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.header {
+  background: #f3f5f8;
+  border-bottom: solid;
+  border-color: #283132;
+  border-width: 1px;
+  color: #3e9fdd;
+  padding-left: 10px;
+}
+
+.top {
+  border: solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-width: 1px;
+  background: #40474c;
+  height: 50px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
+.circle {
+  background: #eceeef;
+  border: solid;
+  border-radius: 50%;
+  border-width: 1px;
+  margin-top: 15px;
+  margin-left: 10px;
+  height: 18px;
+  width: 18px;
+  float: left;
+}
+
+.app_holder {
+  background: #40474c;
+  border-left: solid;
+  border-right: solid;
+  border-bottom: solid;
+  border-width: 1px;
+  width: 80%;
+  margin-left: 10%;
+  padding: 10px;
+}
+
+.app {
+  background: #FFFFFF;
+}
+
+table, th,tr, td {
+  border: solid;
+  border-width: 1px;
+  height: 50px;
+  text-align: center;
+}
+
+.table_header {
+  background: #c0d0d8;
+}
+
+.table_username {
+  text-align: left !important;
+}
+.avatar {
+  height: 50px;
+  width: 50px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+a {
+  cursor: pointer;
+}
+
+
+
+
