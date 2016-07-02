@@ -70,13 +70,15 @@
 	
 	//Add and remove the downward caret on to show user which list is being displayed
 	$(".app").on("click", ".recent_list", function () {
+	  $(".r_point").remove();
 	  $(".recent_list").append("<span class='r_point'> &#9660;</span>");
 	  $(".a_point").remove();
 	});
 	
 	$(".app").on("click", ".alltime_list", function () {
-	  $(".r_point").remove();
+	  $(".a_point").remove();
 	  $(".alltime_list").append("<span class='a_point'> &#9660;</span>");
+	  $(".r_point").remove();
 	});
 	
 	//Create main App component
