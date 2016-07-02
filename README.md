@@ -2,7 +2,9 @@
 FCC Data Visualization Projects
 
 # DEMO
-**Coming soon to:** https://aball6412.github.io/
+https://aball6412.github.io/
+
+*under Front-End projects
 
 # Build for FreeCodeCamp Challenge
 https://www.freecodecamp.com/challenges/build-a-camper-leaderboard
